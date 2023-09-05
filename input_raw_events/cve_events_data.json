@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2023-06-07",
+    "info": "CVE-2022-40263",
+    "Object": [
+      {
+        "Attribute": [
+          {
+            "type": "float",
+            "object_relation": "CVSS v3",
+            "value": "7.8"
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "CVSS vector string",
+            "value": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "Creation time",
+            "value": "2022-11-04T19:15Z"
+          },
+          {
+            "type": "text",
+            "object_relation": "description",
+            "value": "BD Totalys MultiProcessor, versions 1.70 and earlier, contain hardcoded credentials. If exploited, threat actors may be able to access, modify or delete sensitive information, including electronic protected health information (ePHI), protected health information (PHI) and personally identifiable information (PII). Customers using BD Totalys MultiProcessor version 1.70 with Microsoft Windows 10 have additional operating system hardening configurations which increase the attack complexity required to exploit this vulnerability."
+          },
+          {
+            "type": "vulnerability",
+            "object_relation": "id",
+            "value": "CVE-2022-40263"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "last modified",
+            "value": "2022-11-07T17:37Z"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "published",
+            "value": "2022-11-04T19:15Z"
+          },
+          {
+            "type": "link",
+            "object_relation": "references",
+            "value": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-totalys-multiprocessor-hardcoded-credentials"
+          },
+          {
+            "type": "text",
+            "object_relation": "state",
+            "value": "Published"
+          },
+          {
+            "type": "cpe",
+            "object_relation": "vulnerable-configuration",
+            "value": "cpe:2.3:o:bd:totalys_multiprocessor_firmware:*:*:*:*:*:*:*:*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-06-07",
+    "info": "CVE-2022-40703",
+    "Object": [
+      {
+        "Attribute": [
+          {
+            "type": "float",
+            "object_relation": "CVSS v3",
+            "value": "6.1"
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "CVSS vector string",
+            "value": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "Creation time",
+            "value": "2022-10-26T21:15Z"
+          },
+          {
+            "type": "text",
+            "object_relation": "description",
+            "value": "CWE-302 Authentication Bypass by Assumed-Immutable Data in AliveCor Kardia App version 5.17.1-754993421 and prior on Android allows an unauthenticated attacker with physical access to the Android device containing the app to bypass application authentication and alter information in the app."
+          },
+          {
+            "type": "vulnerability",
+            "object_relation": "id",
+            "value": "CVE-2022-40703"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "last modified",
+            "value": "2022-10-28T19:41Z"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "published",
+            "value": "2022-10-26T21:15Z"
+          },
+          {
+            "type": "link",
+            "object_relation": "references",
+            "value": "https://www.cisa.gov/uscert/ics/advisories/icsma-22-298-01"
+          },
+          {
+            "type": "text",
+            "object_relation": "state",
+            "value": "Published"
+          },
+          {
+            "type": "cpe",
+            "object_relation": "vulnerable-configuration",
+            "value": "cpe:2.3:a:alivecor:kardia:*:*:*:*:*:android:*:*"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2023-06-07",
+    "info": "CVE-2023-0888",
+    "Object": [
+      {
+        "Attribute": [
+          {
+            "type": "float",
+            "object_relation": "CVSS v3",
+            "value": "7.2"
+          },
+          {
+            "category": "External analysis",
+            "object_relation": "CVSS vector string",
+            "value": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "Creation time",
+            "value": "2023-03-13T09:15Z"
+          },
+          {
+            "type": "text",
+            "object_relation": "description",
+            "value": "An improper neutralization of directives in dynamically evaluated code vulnerability in the WiFi Battery embedded web server in versions L90/U70 and L92/U92 can be used to gain administrative access to the WiFi communication module. An authenticated user, having access to both the medical device WiFi network (such as a biomedical engineering staff member) and the specific B.Braun Battery Pack SP with WiFi web server credentials, could get administrative (root) access on the infusion pump communication module. This could be used as a vector to start further attacks"
+          },
+          {
+            "type": "vulnerability",
+            "object_relation": "id",
+            "value": "CVE-2023-0888"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "last modified",
+            "value": "2023-03-17T14:39Z"
+          },
+          {
+            "type": "datetime",
+            "object_relation": "published",
+            "value": "2023-03-13T09:15Z"
+          },
+          {
+            "type": "link",
+            "object_relation": "references",
+            "value": "https://www.bbraun.com/productsecurity"
+          },
+          {
+            "type": "text",
+            "object_relation": "state",
+            "value": "Published"
+          },
+          {
+            "type": "cpe",
+            "object_relation": "vulnerable-configuration",
+            "value": "cpe:2.3:o:bbraun:battery-pack_sp_with_wifi_firmware:*:*:*:*:global:*:*:*"
+          }
+        ]
+      }
+    ]
+  }
+]

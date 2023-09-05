@@ -1,0 +1,307 @@
+[
+  {
+    "date": "2023-06-07",
+    "threat_level_id": "1",
+    "info": "BD Totalys MultiProcessor",
+    "Attribute": [
+      {
+        "type": "datetime",
+        "object_relation": "Last revised",
+        "value": "2022-10-04T00:00:00.000000+0000"
+      },
+      {
+        "object_relation": "Alert code",
+        "value": "ICSMA-22-277-01"
+      },
+      {
+        "type": "float",
+        "object_relation": "CVSS v3",
+        "value": "6.6"
+      },
+      {
+        "object_relation": "ATTENTION",
+        "value": "Low attack complexity"
+      },
+      {
+        "object_relation": "Vendor",
+        "value": "Becton, Dickinson and Company (BD)"
+      },
+      {
+        "object_relation": "Equipment",
+        "value": "Totalys MultiProcessor"
+      },
+      {
+        "object_relation": "Vulnerability",
+        "value": "Use of Hard-coded Credentials"
+      },
+      {
+        "object_relation": "Risk evaluation",
+        "value": "Successful exploitation of this vulnerability could allow an attacker to access, modify, or delete sensitive information, including electronic protected health information (ePHI), protected health information (PHI), and personally identifiable information (PII)"
+      },
+      {
+        "object_relation": "Affected product",
+        "value": "BD Totalys MultiProcessor: All versions 1.70 and prior"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "ICSMA",
+        "value": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-22-277-01",
+        "disable_correlation": "True"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CWE",
+        "value": "https://cwe.mitre.org/data/definitions/798.html",
+        "disable_correlation": "True"
+      },
+      {
+        "type": "vulnerability",
+        "object_relation": "cve_id",
+        "value": "CVE-2022-40263"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CVE",
+        "value": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40263",
+        "disable_correlation": "True"
+      },
+      {
+        "category": "External analysis",
+        "object_relation": "CVSS vector string",
+        "value": "AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+      },
+      {
+        "object_relation": "Company critical infrastructure sector",
+        "value": "Healthcare and Public Health"
+      },
+      {
+        "object_relation": "Company countries/areas deployed",
+        "value": "Worldwide"
+      },
+      {
+        "object_relation": "Company headquarters location",
+        "value": "United States"
+      },
+      {
+        "object_relation": "Researcher",
+        "value": "BD reported this vulnerability to CISA"
+      },
+      {
+        "object_relation": "Mitigations",
+        "value": "According to BD, this vulnerability is scheduled to be remediated in the BD Totalys MultiProcessor version 1.71 software release expected in fourth quarter 2022. BD recommends the following compensating controls for users with versions of the BD Totalys MultiProcessor using hard-coded credentials: i) Ensure physical access controls are in place; only authorized end-users should have access to the BD Totalys MultiProcessor; ii) if the BD Totalys MultiProcessor must be connected to a network, ensure industry standard network security policies and procedures are followed. For additional information, users should see the security bulletin of BD. CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability these vulnerabilities. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage at cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies. Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. No known public exploits specifically target this vulnerability. This vulnerability is not exploitable remotely"
+      }
+    ]
+  },
+  {
+    "date": "2023-06-08",
+    "threat_level_id": "1",
+    "info": "AliveCor KardiaMobile",
+    "Attribute": [
+      {
+        "type": "datetime",
+        "object_relation": "Last revised",
+        "value": "2022-11-14T00:00:00.000000+0000"
+      },
+      {
+        "object_relation": "Alert code",
+        "value": "ICSMA-22-298-01"
+      },
+      {
+        "type": "float",
+        "object_relation": "CVSS v3",
+        "value": "5.2"
+      },
+      {
+        "object_relation": "ATTENTION",
+        "value": "Public exploits are available, low attack complexity"
+      },
+      {
+        "object_relation": "Vendor",
+        "value": "AliveCor"
+      },
+      {
+        "object_relation": "Equipment",
+        "value": "KardiaMobile"
+      },
+      {
+        "object_relation": "Vulnerability",
+        "value": "Authentication Bypass by Assumed-immutable Data, Missing Encryption of Sensitive Data"
+      },
+      {
+        "object_relation": "Risk evaluation",
+        "value": "Successful exploitation of these vulnerabilities could lead to attackers stealing or faking personal cardiograms or enabling a denial-of-service attack. Attackers must be at close range to carry out these attacks"
+      },
+      {
+        "object_relation": "Affected product",
+        "value": "Kardia App Android application Version 5.17.1-754993421 and prior (affected only by CVE-2022-40703)"
+      },
+      {
+        "object_relation": "Affected product",
+        "value": "KardiaMobile IoT device, all versions (affected only by CVE-2022-41627)"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "ICSMA",
+        "value": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-22-298-01",
+        "disable_correlation": "True"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CWE",
+        "value": "https://cwe.mitre.org/data/definitions/302.html"
+      },
+      {
+        "type": "vulnerability",
+        "object_relation": "cve_id",
+        "value": "CVE-2022-40703"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CVE",
+        "value": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-40703"
+      },
+      {
+        "category": "External analysis",
+        "object_relation": "CVSS vector string",
+        "value": "AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CWE",
+        "value": "https://cwe.mitre.org/data/definitions/311.html"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CVE",
+        "value": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2022-41627"
+      },
+      {
+        "category": "External analysis",
+        "object_relation": "CVSS vector string",
+        "value": "AV:P/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H"
+      },
+      {
+        "object_relation": "Company critical infrastructure sector",
+        "value": "Healthcare and Public Health"
+      },
+      {
+        "object_relation": "Company countries/areas deployed",
+        "value": "North America and Europe"
+      },
+      {
+        "object_relation": "Company headquarters location",
+        "value": "United States"
+      },
+      {
+        "object_relation": "Researcher",
+        "value": "Carlos Cilleruelo Rodríguez and Javier Junquera Sánchez of the University of Alcalá reported these vulnerabilities to CISA"
+      },
+      {
+        "object_relation": "Mitigations",
+        "value": "The Kardia App usage instructions include recommendations for users to use passcode (PIN) or biometric identification for their smartphone devices; such measures greatly reduce the risk of Intent Manipulation. AliveCor has acknowledged that the data-over-sound protocol has no encryption and is vulnerable to CVE-2022-41627, but the circumstances necessary for exploitation are “unlikely.” CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics Several recommended practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage on cisa.gov/ics in the Technical Information Paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies. Organizations observing any suspected malicious activity should follow their established internal procedures and report their findings to CISA for tracking and correlation against other incidents. These vulnerabilities are not exploitable remotely"
+      }
+    ]
+  },
+  {
+    "date": "2023-06-08",
+    "threat_level_id": "1",
+    "info": "B. Braun Battery Pack SP with Wi-Fi",
+    "Attribute": [
+      {
+        "type": "datetime",
+        "object_relation": "Last revised",
+        "value": "2023-04-13T00:00:00.000000+0000"
+      },
+      {
+        "object_relation": "Alert code",
+        "value": "ICSMA-23-103-01"
+      },
+      {
+        "type": "float",
+        "object_relation": "CVSS v3",
+        "value": "5.5"
+      },
+      {
+        "object_relation": "ATTENTION",
+        "value": "Exploitable remotely/low attack complexity"
+      },
+      {
+        "object_relation": "Vendor",
+        "value": "B. Braun Melsungen AG"
+      },
+      {
+        "object_relation": "Equipment",
+        "value": "Battery Pack SP with Wi-Fi"
+      },
+      {
+        "object_relation": "Vulnerability",
+        "value": "Improper neutralization of directives in dynamically evaluated code ('Eval Injection')"
+      },
+      {
+        "object_relation": "Risk evaluation",
+        "value": "Successful exploitation of this vulnerability could allow a sophisticated and authenticated attacker to compromise the security of the Space communication device Battery Pack SP with Wi-Fi. An attacker could escalate privileges, view sensitive information, upload arbitrary files, and perform remote code execution"
+      },
+      {
+        "object_relation": "Affected product",
+        "value": "Battery pack SP with Wi-Fi (SN 138853 and higher) with software 053L000091 (global) / 054U000091 (U.S.) and 053L000092 (global) / 054U000092 (U.S.)"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "ICSMA",
+        "value": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-23-103-01",
+        "disable_correlation": "True"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CWE",
+        "value": "https://cwe.mitre.org/data/definitions/95.html"
+      },
+      {
+        "type": "vulnerability",
+        "object_relation": "cve_id",
+        "value": "CVE-2023-0888"
+      },
+      {
+        "type": "link",
+        "category": "External analysis",
+        "object_relation": "CVE",
+        "value": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-0888"
+      },
+      {
+        "category": "External analysis",
+        "object_relation": "CVSS vector string",
+        "value": "AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:L"
+      },
+      {
+        "object_relation": "Company critical infrastructure sector",
+        "value": "Healthcare, Public Health"
+      },
+      {
+        "object_relation": "Company countries/areas deployed",
+        "value": "Worldwide"
+      },
+      {
+        "object_relation": "Company headquarters location",
+        "value": "Germany"
+      },
+      {
+        "object_relation": "Researcher",
+        "value": "Tom Johnston, a cyber security consultant, reported this vulnerability to B. Braun"
+      },
+      {
+        "object_relation": "Mitigations",
+        "value": "B. Braun has released software updates to mitigate the reported vulnerabilities: i) Battery pack SP with Wi-Fi: software 053L000093 (global) / 054U000093 (U.S.), ia) Facilities in Canada utilizing “U” versions of software should follow the U.S. version, ib) Facilities in Canada utilizing non-“U” versions (e.g. L) should follow the global version. The infusion pumps are not directly affected. However, the interrupted network communication might prevent certain features of the device from functioning properly. Specifically, an impacted device may be unable to receive infusion orders from EMR/PDMS systems, receive a drug library update, or communicate with DoseTrac. For more information, see the B. Braun Vulnerability Advisory. CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. Specifically, users should: i) Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the Internet; ii) locate control system networks and remote devices behind firewalls and isolate them from business networks; iii) when remote access is required, use secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as its connected devices. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures. CISA also provides a section for control systems security recommended practices on the ICS webpage at cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies. Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents. No known public exploits specifically target this vulnerability"
+      }
+    ]
+  }
+]
